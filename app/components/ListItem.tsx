@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 
 type Props = {
-    post: BlogPost
+    post: Meta
 }
 
 const ListItem = ({ post }: Props) => {
